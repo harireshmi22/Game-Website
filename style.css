@@ -532,7 +532,18 @@ nav .nav__btn {
     gap: 1em;
 }
 
-.footer__links li a{
+.footer__links li a {
     color: #fff;
     font-size: 1em;
+}
+
+.footer__bar {
+    border-top: 1px solid var(--text-color);
+    text-align: center;
+}
+
+.footer__bar p {
+    color: #fff;
+    margin-top: 1em;
+    text-align: center;
 }
