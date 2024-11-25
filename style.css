@@ -256,6 +256,27 @@ nav .nav__btn {
     font-size: 3em;
 }
 
+.home-page {
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.home-page img {
+    width: 100%;
+    margin-bottom: 1rem;
+    transform-style: preserve-3d;
+    object-fit: contain;
+}
+
+.mansory-layout {
+    flex-wrap: wrap;
+    columns: 300px;
+    padding: 32px;
+}
+
 .latest-product {
     margin-top: 3em;
     /* border-top: 2px solid var(--text-color); */
