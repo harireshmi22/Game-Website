@@ -26,6 +26,20 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+
+  breakpoints: {
+    // For screens >= 768px
+    768: {
+        slidesPerView: 1,   // 2 slides per view
+        spaceBetween: 20,   // Increase space between slides
+    },
+    // For screens >= 1024px
+    1024: {
+        slidesPerView: 3,   // 3 slides per view
+        spaceBetween: 30,   // Increase space between slides
+    },
+},
+
 });
 
 // Register ScrollTrigger plugin
